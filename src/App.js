@@ -1,12 +1,11 @@
-import Listing from './components/Listing';
+import Stars from './components/Stars';
 import './App.css';
-import etsy from './data/etsy';
 
 function App() {
 
   return (
     <div className="container">
-      <Listing items={etsy} />
+      <Stars count={1} />
     </div>
   );
 }
